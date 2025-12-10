@@ -1,0 +1,13 @@
+```yaml
+index_backend: "local"
+embedding_backend: "openai:gpt-embedding"
+storage_path: "./vector_store"
+
+sources:
+  ledger: "../mindscript-ledger/ledger/"
+  templates: "../mindscript-templates/"
+  runtime_logs: "../mindscript-runtime/logs/"
+
+indexer:
+  chunk_size: 2048
+  overlap: 200
