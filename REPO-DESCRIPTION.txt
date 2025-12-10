@@ -1,0 +1,10 @@
+mindscript-search is the retrieval, indexing, and pattern-analysis engine 
+of the MindScript ecosystem. It enables semantic search, structural search, 
+and temporal recall across ledger entries, templates, runtime outputs, 
+and MindScript files.
+
+Features:
+- Vector-based semantic search
+- Pattern and prompt-structure matching
+- Ledger recall and thread reconstruction
+- Cross-repo indexing and unified querying
